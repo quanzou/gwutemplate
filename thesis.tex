@@ -1,0 +1,89 @@
+ά%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                    PhDthesis v0.1                                       %
+%                            By Quan Zou <quan.zou@gmail.com>                             %
+%                            Version 0.1 released 11/01/2015                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%------------------------------------------------------------------------------------------
+% input macros (i.e. write your own macros files under Macros/)
+%------------------------------------------------------------------------------------------
+%\include{macros/macros}
+\include{macros/abbrevs}
+
+\documentclass[12pt]{report}
+\usepackage[top=1in, bottom=1in, left=1.25in, right=1.25in]{geometry}
+\usepackage{setspace}				% singlespace
+\usepackage{tocstyle}
+\usepackage{tocloft}
+\usepackage{sectsty}
+
+\usepackage{lscape}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{graphics}
+
+\usepackage[parfill]{parskip}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{epstopdf}				% work for eps figure in pdflatex
+\usepackage{breqn}
+
+
+%%%--------------------------------------------------------------------------
+\setcounter{secnumdepth}{2}
+\usetocstyle{standard}
+\renewcommand{\contentsname}{\centerline {\normalsize Table of Contents}}
+\renewcommand{\cftsecfont}{\normalsize}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftsecdotsep}}
+\renewcommand\cftloftitlefont{\normalsize}
+\renewcommand\cftlottitlefont{\normalsize}
+\sectionfont{\normalsize}
+
+\begin{document}
+\pagestyle{plain}
+\setcounter{page}{1}
+\pagenumbering{roman}
+
+\doublespacing
+\include{front/title}
+
+\doublespacing
+\include{front/cert}
+
+\doublespacing
+\include{front/copyright}
+
+\addcontentsline{toc}{chapter}{Acknowledgments}
+\doublespacing
+\include{front/ack}
+\doublespacing
+\include{front/dedication}
+\addcontentsline{toc}{chapter}{Abstract of Dissertation}
+\doublespacing
+\include{abstract/abstract}
+
+\doublespacing
+\newpage
+\renewcommand{\vspace}[2]{}% Gobble 2 arguments after \vspace
+\tableofcontents
+\newpage
+\cleardoublepage
+\phantomsection \label{listoffig}
+\addcontentsline{toc}{section}{List of Figures} \begin{center} \listoffigures \end{center}
+\cleardoublepage
+\phantomsection \label{listoftab}
+\addcontentsline{toc}{section}{List of Tables} \begin{center} \listoftables \end{center}
+
+\include{chap1/chap1}   %%%
+\include{chap2/chap2}   %%%
+\include{chap3/chap3}   %%%
+\include{chap4/chap4}   %%%
+\include{chap5/chap5}   %%%
+
+
+\bibliographystyle{abbrv}
+\bibliography{references/references}
+
+\end{document}
+
