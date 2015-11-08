@@ -1,0 +1,116 @@
+              GWU Latex Thesis Template README file
+
+                      Copyright (c) 2015
+                         by Quan Zou 
+                   quan.zou.math@gmail.com
+
+This package provides a LaTeX2e template and style file to produce a 
+Master or Ph.D. thesis template that meets the requirements of the 
+Graduate School of The University of Nevada, Reno. 
+
+This program is free software, and can be redistributed and/or 
+modified under the terms of GNU General Public License as published 
+by the Free Software Foundation. 
+
+The program is distributed in the hope that it will be useful,but 
+WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU 
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License 
+along with LaTeX2e; If not, write to the Free SoftwareFoundation, 
+Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+                   Requirement of the program
+The package is tested under debian lenny, tools needed are: Unix 
+command shell, GNU make utility, TeX Live(http://tug.org), Git. 
+
+The template is tested under TeX 3.1415926 under debian 6.0.5 (squeeze),
+CTeX 2.9.2 under window 7: git, git-shell, are needed. 
+
+
+                       Obtain the program
+# git clone http://github.com/quanzou/gwutemplate.git
+# git clone http://neurosim.minidns.net/git/gwutemplate.git
+
+                     Usage of the package
+$ latex thesis
+$ bibtex thesis
+$ latex thesis
+$ latex thesis
+
+please send latex bugs, questions, comments and suggestions, etc., 
+to the author at quan.zou.math@gmail.com
+
+                     Dssertation format 
+General University formatting guidelines govern the page margins, page 
+numbering, the page order and the formatting for the front matter. For 
+the body of the manuscript, please follow the style guide that is most 
+appropriate for your field of study or as specified in the graduate 
+school handbook or by your dissertation advisor. Some schools or colleges 
+have specific formatting guidelines in addition to (ie. SEAS) or that 
+supersede (ie School of Law) University formatting guidelines. Please 
+consult your graduate schools Doctoral or Graduate Handbook for additional 
+formatting information.
+
+- Model title page
+
+- Model Certification page (required page)
+
+- Fonts (true type fonts 10-12 pt size)
+     Courier New 10 pt.
+     Georgia 11 pt.
+     Times New Roman 12 pt
+     Trebuchet MS or Verdana 10 pt.
+
+- Order of pages
+
+- Page numbering:
+    Front pages: small, roman numerals, centered at the bottom of the page.
+	The title page is counted as page i, but the page number is not displayed.
+    Body of Manuscript: Arabic numerals, centered at the bottom of the page.
+	The first page of the Introduction is numbered as page 1 and is displayed
+
+- Margins:
+    Portrait:  1.25 inches for left & right margins; 1.00 inch for top & 
+	bottom margins
+    Landscape: 1.00 inch left & right margins; 1.25 inches for top & bottom 
+	margins
+    
+    Exception for figures, tables, and images: The right and left margins 
+	for figures, tables, and images may be modified to no less than 1 inch
+
+- Figures, Tables, and Images:
+    Page Margins for figures, tables and images may be modified to 1 inch 
+	for right, left, top and bottom page margins
+    For large figures, tables, and images, consider the following options:
+		Change the page orientation to landscape
+		Change the page size to 8.5 x 14 (legal size)  (see MS Word Help)
+
+- Supplemental Files:
+    Any file format can be used in supplementary files
+    University formatting rules to not apply to supplemental files
+    Material in supplementary files are provided on CD-Rom in a pocket 
+	insert of the print copy as they are uploaded in the ETD Administrator 
+	site.
+
+	 Your chapter titles and the 
+	
+The Manuscript Style Guides below have been adapted for each individual 
+School or College within the context of University formatting standards.
+Your chapter titles and the body of the manuscript should be written in 
+a style appropriate for your field of study and/or you school specific 
+guidelines. 
+
+Keep in mind that different disciplines use different styles for formatting 
+bibliographies, footnotes, and/or endnotes.  Please use the correct style 
+for your discipline.To help you format your bibliography correctly,  please 
+consult the GW Libraries' Writing Style & Citation Guides. In addition, the 
+library offers RefWorks, an online tool for organizing your research and 
+creating bibliographies, free of charge to all GW affiliates.
+
+If you have questions about your particular graduate school's special 
+requirements, please contact your school's ETD Administrator or Degree 
+Program Coordinator.
+
+Please refer to http://library.gwu.edu/etd/dissertations for more details. 
